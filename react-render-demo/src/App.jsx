@@ -1,16 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { UseState } from './components/UseState/UseState'
-import { UseReducer } from './components/UseReducer/UseReducer'
+import { useState } from 'react';
+import './App.css';
+import { ArrayUseState } from './components/Immutable State/ArrayUseState';
+import { ObjectUseReducer } from './components/Immutable State/ObjectUseReducer';
+import { ObjectUseState } from './components/Immutable State/ObjectUseState';
+import { UseReducer } from './components/UseReducer/UseReducer';
+import { UseState } from './components/UseState/UseState';
+import { ArrayUseReducer } from './components/Immutable State/ArrayUseReducer';
 
 function App() {
   return (
     <>
-      <UseReducer />
+      <ArrayUseReducer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
