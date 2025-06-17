@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import './App.css';
-import { ParentTwo } from './components/Optimization/ParentTwo';
-import { ParentThree } from './components/Incorrect Optimization/ParentThree';
-import { ParentFour } from './components/Incorrect Optimization/ParentFour';
+import { ContextParent } from './components/Context/ContextParent';
 
 function App() {
   return (
     <>
-      <ParentFour />
+      <ContextParent />
     </>
   );
 }
